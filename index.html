@@ -284,24 +284,71 @@
                             <button type="button" class="w-100 btn btn-lg btn-success btn-outline-dark">Купить</button>
                         </div>
                     </div>
-                </div>
-            </div>
-        </main>
-        <!--Рядом с карточкой товара добавьте форму с полями «Имя» и «Email» и кнопку «Отправить» -->
-        <form>
-            <div class="mb-3">
-      <label for="disabledTextInput" class="form-label">Имя</label>
-      <input type="text" id="disabledTextInput" class="form-control">
-    </div>
-            <div class="mb-3">
-            <label for="exampleInputEmail1" class="form-label">Email</label>
-            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-                <div id="emailHelp" class="form-text">Мы никогда никому не передадим вашу электронную почту.</div>
-                </div>
+                    <!--Рядом с карточкой товара добавьте форму с полями «Имя» и «Email» и кнопку «Отправить» -->
+
+                    <div class="col-12">
+                    <div class="card mb-4 rounded-3 shadow-sm" style="position: relative; top: -273px; left: 500px;">
+                        <div class="card-body">
+                            <h4 class="my-0 mb-4 mt-2 fw-normal"></h4>
+                                <form>
+                                    <div class="mb-3">
+                                    <label for="disabledTextInput" class="form-label">Имя</label>
+                                    <input type="text" id="disabledTextInput" class="form-control">
+                                    </div>
+                                <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
             <button type="submit" class="btn btn-primary">Отправить</button>
         </form>
+        </main>
 <!--В новой строке под карточкой товара и формой добавьте раздел FAQ на всю ширину страницы.
  В разделе выведите 3 кнопки с частыми вопросами -->
+<main class="row">
+    <div class="row text-center">
+                <div class="col-25" style="position: relative;">
+                    <div class="card mb-4 rounded-3 shadow-sm">
+                        <div class="card-header py-3">
+                            <h4 class="my-0 fw-normal">FAQ</h4>
+                            <p>
+                                </p>
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="position: relative; left: -500px;">Как купить?</button>
+                            <!-- выпадающий текст для первой кнопки -->
+                            <div class="dropdown">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="position: relative; top: -40px;">Как доставить?</button>
+                            <!-- выпадающий текст для второй кнопки -->
+                            <div class="dropdown">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                    aria-expanded="false" style="position: relative; top: -80px; left: 500px;">Какая гарантия?</button>
+                            <!-- выпадающий текст для третьей кнопки -->
+                            <div class="dropdown">
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    </div>
+</main>
 
 
 
