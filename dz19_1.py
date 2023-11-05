@@ -12,7 +12,7 @@ class MyServer(BaseHTTPRequestHandler):
     """
     def __get_index(self):
         '''читает страницу HTML из файла'''
-        file_path = Path(__file__).parent.joinpath('index.html')
+        file_path = Path(__file__).parent.joinpath('index_collapse.html')
         with open(file_path, encoding='utf-8') as file:
             data_html = file.read()
             #print(data_html)
